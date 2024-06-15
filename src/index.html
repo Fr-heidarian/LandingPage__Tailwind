@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
     <nav class="container mx-auto p-6">
         <img src="./images/logo.svg" alt="shortly logo" />
         <div class="flex items-center justify-between text-gray">
@@ -27,7 +28,6 @@
     </nav>
 
     <section id="hero">
-
         <div class="container mx-auto flex p-6">
             <!-- Left Headings -->
             <div class="flex flex-col gap-y-10">
@@ -35,14 +35,41 @@
                 <p class="text-left text-2xl text-gray">Build your brand's recognition and get detailed insights on how
                     your
                     links are performing.</p>
-                <div><a href="#" class="text-white bg-cyan text-2xl px-10 py-4 rounded-full hover:opacity-70 font-bold">Get Started</a>
+                <div><a href="#"
+                        class="text-white bg-cyan text-2xl px-10 py-4 rounded-full hover:opacity-70 font-bold">Get
+                        Started</a>
                 </div>
             </div>
             <!-- Hero Image -->
             <img src="./images/illustration-working.svg" alt="hero image">
         </div>
+    </section>
+
+    <section id="shorten" class="bg-lightGray">
+        <div class="mx-auto p-6 max-w-4xl space-y-2">
+            <form class="mt-10 flex gap-x-2 w-full bg-darkViolet rounded-lg p-10">
+                <input type="text" placeholder="Shorten a link here"
+                    class="basis-3/4 rounded-lg border-2 p-3 placeholder-yellow-500 focus:outline-none" />
+                <button class="basis-1/4 rounded-lg bg-cyan p-3 text-white">Shorten it!</button>
+            </form>
+            <div class="flex w-full items-center justify-between p-6 rounded-lg bg-white">
+                <p class="font-bold text-darkViolet">https://Lorem ipsum dolor sit consectetur </p>
+                <div class="flex items-center justify-end space-x-4">
+                    <div class="font-bold text-cyan">https://Lorem ipsum dolor sit</div>
+                    <button class="basis-1/4 rounded-lg bg-cyan py-2 px-8 text-white">Copy</button>
+                </div>
+            </div>
+            <div class="flex w-full items-center justify-between p-6 rounded-lg bg-white">
+                <p class="font-bold text-darkViolet">https://Lorem ipsum dolor sit consectetur</p>
+                <div class="flex items-center justify-end space-x-4">
+                    <div class="font-bold text-cyan">https://Lorem ipsum dolor sit</div>
+                    <button class="basis-1/4 rounded-lg bg-darkViolet py-2 px-8 text-white">Copy</button>
+                </div>
+            </div>
+        </div>
 
     </section>
+
 </body>
 
 </html>
